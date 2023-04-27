@@ -127,10 +127,10 @@ const Home = () => {
               <th scope="col">Country</th>
               <th scope="col">Name</th>
               <th scope="col">Lng</th>
-            </tr>
+            </tr> 
           </thead>
           <tbody>
-            {currentItems.map((user, idx) => {
+            {currentItems.map((user) => {
               return (
                 <tr>
                   <th scope="row">{user.no}</th>
